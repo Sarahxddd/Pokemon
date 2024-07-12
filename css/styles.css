@@ -1,0 +1,61 @@
+body{
+    font-family: ;
+    background-color: #297373;
+    /*xd*/
+    background-image: url();
+    background-size:cover;
+    /*que la imagen de fondo cubra todo por completo*/
+
+    #seleccionar-mascota{
+
+        display:flex;
+        /*va a ser como un bloque o una linea*/
+
+        flex-direction:column;
+
+        justify-content: center;
+        align-items:center;
+        /*que todo vaya centrado*/
+
+
+
+    }
+     /*id se abre con numeral, class conn punto*/
+    .title{
+        color: #280003;
+        font-size: 32px;
+        font-family:;
+    }
+
+    .subtitulo{
+        color:#280003;
+        font-size: 32px;;
+    }
+   
+    .tarjetas{
+        display:flex;
+        gap:10px;
+    }
+
+    .tarjeta-pokemon{
+        width: 200px;
+        height:100px;
+        background-color: #F4E76E;
+        padding: 10px;
+        box-sizing: border-box;
+        border-radius: 20px;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        color:#280003;
+        font-family: 'Franklin Gothic Medium';
+        
+    }
+
+    .tarjeta-pokemon img{
+        width: 80px;
+
+    }
+
+
+}
