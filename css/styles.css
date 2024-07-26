@@ -1,8 +1,8 @@
 body{
-    font-family: ;
+    font-family: 'Poppins', sans-serif ;
     background-color: #297373;
     /*xd*/
-    background-image: url();
+    background-image: ur();
     background-size:cover;
     /*que la imagen de fondo cubra todo por completo*/
 
@@ -24,10 +24,10 @@ body{
     .title{
         color: #280003;
         font-size: 32px;
-        font-family:;
+        font-family:"Fredoka One", cursive;
     }
 
-    .subtitulo{
+    .subtitle{
         color:#280003;
         font-size: 32px;;
     }
@@ -67,17 +67,17 @@ body{
         background: transparent;
         border: 2px solid white;
         color: white;
-        font-family: ;
+        font-family: 'Poppins', sans-serif;
         margin-top: 30;
         
     }
 
-    imput{
+    input{
         display: none;
 
     }
 
-    #Seleccionar-ataque{
+    #seleccionar-ataque{
 
         display: flex;
         flex-direction: column;
@@ -92,7 +92,7 @@ body{
         border-color: transparent;
         width: 180px;
         color: rgb(0, 0, 0);
-        font-family: ;
+        font-family: "Poppins", sans-serif;
         
 
     }
@@ -104,7 +104,7 @@ body{
         background: transparent;
         border: 2px solid white;
         color: white;
-        font-family: ;
+        font-family: 'Poppins', sans-serif ;
         margin-top: 3opx;
 
     }

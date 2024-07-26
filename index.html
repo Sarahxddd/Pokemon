@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/styles.css">
     <title>Pokemon</title>
+    <script src = "js/pokemon.js"></script>
 </head>
 <body>
 
@@ -19,27 +20,21 @@
             
             <label class="tarjeta-pokemon" for="charmander">
                 <p>Charmander</p>
-                <img src="./assets/charmander.png">
-                
+                <img src="./assets/charmander.png">   
             </label>
-    
             <input type="radio" name="mascota" id="charmander">
     
             <label class="tarjeta-pokemon" for="boulbasour">
                 <p>boulbasour</p>
-                <img src="./assets/bulbasour.png">
-                
+                <img src="./assets/bulbasour.png">    
             </label>
-            
             <input type="radio" name="mascota" id="boulbasour">
             
             <label class="tarjeta-pokemon" for="squirtle">
                 <p>Squirtle</p>
                 <img src="./assets/squirtle.png">
-                
             </label>
-            
-            <input type="radio" name="mascota" id="Squirtle">     
+            <input type="radio" name="mascota" id="squirtle">     
     
         </div>
 
@@ -47,7 +42,7 @@
 
     </section>
 
-    <section id ="Seleccionar-ataque">
+    <section id ="seleccionar-ataque">
         <h1 class="title">Pokemon</h1>
         <h2 class="subtitle">Elige tu mascota</h2>
         <div>
@@ -65,8 +60,8 @@
         </div>
 
         <div>
-            <p>Tu mascota <span id="mascota-jugador"></span></p>
-            <p>La mascota <span id="mascota-enemigo"></span></p>
+            <p>Tu mascota <span id="mascota-jugador"></span>tiene<span id="vidas-jugador">3</span></p>
+            <p>La mascota del enemigo <span id="mascota-enemigo"></span>tiene<span id="vidas-enemigo">3</span></p>
         </div>
 
     </section>
